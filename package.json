@@ -1,0 +1,23 @@
+{
+  "name": "playwright-framework-js",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript automation framework for XYZ Bank",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report",
+    "test:customer": "playwright test tests/customer",
+    "test:manager": "playwright test tests/manager",
+    "test:negative": "playwright test tests/negative"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.0.0",
+    "dotenv": "^16.4.0",
+    "typescript": "^5.6.0"
+  },
+  "dependencies": {
+    "playwright-self-healing": "file:../playwright-self-healing/playwright-self-healing"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "customers": {
+    "harry_potter": "Harry Potter",
+    "hermoine_granger": "Hermoine Granger",
+    "ron_weasly": "Ron Weasly"
+  },
+  "manager_customers": {
+    "john_doe": {
+      "first_name": "John",
+      "last_name": "Doe",
+      "postcode": "12345"
+    },
+    "jane_smith": {
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "postcode": "54321"
+    },
+    "delete_test": {
+      "first_name": "Delete",
+      "last_name": "Me",
+      "postcode": "99999"
+    },
+    "all_currencies_test": {
+      "first_name": "Currency",
+      "last_name": "Tester",
+      "postcode": "11111"
+    },
+    "search_test": {
+      "first_name": "Zephyrine",
+      "last_name": "Xyloph",
+      "postcode": "22222"
+    },
+    "count_test": {
+      "first_name": "Count",
+      "last_name": "Verify",
+      "postcode": "33333"
+    },
+    "duplicate_test": {
+      "first_name": "Dupli",
+      "last_name": "Cate",
+      "postcode": "44444"
+    },
+    "empty_fields_test": {
+      "first_name": "Fields",
+      "last_name": "Test",
+      "postcode": "55555"
+    }
+  },
+  "amounts": {
+    "deposit_small": "1000",
+    "deposit_medium": "2000",
+    "deposit_large": "3000",
+    "deposit_xlarge": "5000",
+    "withdrawal_small": "500",
+    "withdrawal_medium": "750",
+    "withdrawal_large": "1000",
+    "withdrawal_xlarge": "2000",
+    "deposit_decimal": "100.50"
+  },
+  "currencies": {
+    "dollar": "Dollar",
+    "pound": "Pound",
+    "rupee": "Rupee"
+  },
+  "validation_messages": {
+    "deposit_successful": "Deposit Successful",
+    "withdrawal_successful": "Transaction successful",
+    "customer_added": "Customer added successfully",
+    "account_created": "Account created successfully"
+  }
+}
